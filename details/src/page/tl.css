@@ -5,11 +5,18 @@ body {
    background:#fff;
    color:black;
   }
-  .column {
+  .column-left,.column-right {
     float: left;
     width: 50%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column-one , .column-two{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  
   }
   
   /* Clear floats after the columns */
@@ -20,14 +27,11 @@ body {
   }
   .column-left{
     background-color:#fff;
-    border:2px solid #000;
+    border:2px solid #000 ;
   }
   .column-right{
-   padding-left:50px;
+    padding-left:50px;
   }
-  .row-container{
-   padding:20px;
-  }
-  .row-inside{
-    width:150px;
+  .row{
+    padding:20px;
   }
