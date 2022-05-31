@@ -8,13 +8,12 @@ body {
     box-sizing: border-box;
   }
   
-  /* .row {
+  .row {
     display: -ms-flexbox; 
     display: flex;
     -ms-flex-wrap: wrap; 
     flex-wrap: wrap;
-    margin: 0 500px;
-  } */
+  }
   
 
   
